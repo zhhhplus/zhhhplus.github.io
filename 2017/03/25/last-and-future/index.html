@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.3 -->
+
+    <!-- Title -->
+    
+    <title>
+        
+            过去和未来 | 
+        
+        Cat and Owl
+    </title>
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    
+    
+    
+    
+    
+
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="ZhhhPlus">
+    <meta name="description" content="Codes and Stories">
+    <meta name="keywords" content="null,生活">
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/cat.png">
+    <link rel="icon" sizes="192x192" href="/img/cat.png">
+    <link rel="apple-touch-icon" href="/img/cat.png">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Cat and Owl">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://zhhhplus.github.io">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="过去和未来 | Cat and Owl">
+    <meta property="og:description" content="Codes and Stories">
+    <meta property="og:article:tag" content="生活"> 
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS & jQuery -->
+    
+        <link rel="stylesheet" href="/css/material.min.css">
+        <link rel="stylesheet" href="/css/style.min.css">
+        <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bg.png);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/queue.js"></script>
+    
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+
+    
+
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
+<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#I"><span class="post-toc-number">1.</span> <span class="post-toc-text">I</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#II"><span class="post-toc-number">2.</span> <span class="post-toc-text">II</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#III"><span class="post-toc-number">3.</span> <span class="post-toc-text">III</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#IV"><span class="post-toc-number">4.</span> <span class="post-toc-text">IV</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#V"><span class="post-toc-number">5.</span> <span class="post-toc-text">V</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#VI"><span class="post-toc-number">6.</span> <span class="post-toc-text">VI</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#VII"><span class="post-toc-number">7.</span> <span class="post-toc-text">VII</span></a></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/thumbnail/noir.bmp)">
+    
+            <p class="article-headline-p">
+                过去和未来
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>ZhhhPlus</strong>
+        <span>3月 25, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/生活/">生活</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=过去和未来&url=http://zhhhplus.github.io//2017/03/25/last-and-future/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Cat and Owl&title=过去和未来&summary=Codes and Stories&pics=http://zhhhplus.github.io/img/cat.png&url=http://zhhhplus.github.io/2017/03/25/last-and-future/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h3 id="I"><a href="#I" class="headerlink" title="I"></a>I</h3><p>　　也不知道为什么，就是想写写以前的事情，可能是翻日记的效果吧。<br><a id="more"></a></p>
+<h3 id="II"><a href="#II" class="headerlink" title="II"></a>II</h3><p>　　小学老师有让我们记日记的建议，但是其实没几个人坚持写下去的（大概吧），比如我就没坚持写下去，交作业也是现场胡诌的，理由是：记下来又能怎么样呢。现在看来，好像的确没什么用，但是就像一个树洞一样，可以将一些心情排进去，大概小学生不会去想什么莫名其妙的东西吧，日记也就莫名其妙了起来。初中有周记的作业，与其说周记，不如说是每周的作文练习，并没有记这个属性，可以说什么都没记录下来。高中结尾的时候我才算是写类似日记的东西，可以说是在高中生莫名高涨的氛围中受到感染，想要写点什么东西吧，无处发泄的精力？可能吧，打死不想写作业的心态和莫名多出来的自习时间导致了很多乱七八糟的东西的诞生。说来好笑，那个时候写日记的心态是：每天都往上写一些学习收获，即使每天都很少，长期下来能够保证每天学习，没有收获写下来的羞耻心会催促自己好好学习，之类的。现在看，这个计划大概可以说完全破产了，其实既没有什么记录了自己感想的东西，也没有固定的时间去记录，称不上真正的日记，既没有写下什么真的有意义的学习收获，有的只是给自己打气的高中生的呓语罢了，到处都是挣扎的痕迹，回过头来翻看也找不到什么乐趣，只知道有这样的一段时间，它存在过，但是又说什么都找不出它存在的意义，可能就像给人生的空白地带填充一些可有可无的东西吧，也就是给空白的本子填充一些可有可无的文字吧。</p>
+<h3 id="III"><a href="#III" class="headerlink" title="III"></a>III</h3><p>　　从2013年3月中旬开始讲起吧。在初三的自己喊着我要保送的口号之后没多少时间，三月中旬，一天早操，负责监督学弟学妹做操的我，在去的路上经过了学校的公告黑板，看到了新的红榜上自己的名字，开心地拍了一下那个玻璃橱窗，似乎吓了旁边的老师一跳，现在看，也不知道在瞎高兴什么，不过是眼界狭窄的效果罢了。但是当时是带着笑意的就是了。</p>
+<p>　　保送之后在学校里逗留了一两个星期吧，体育中考的补习也还在继续参加，虽然没有什么用了其实，也不知道是不是想要继续一下原来的生活的原因，总之就是好像没有这么回事，但其实自己知道就是有这么回事。但是没有中考这个目标的约束，并不放任的靠自律的生活没有办法挽留我这样的家伙吧，某天语文要求罚抄，我就没去学校了，那天我用行李箱装了自己的书们，离开教室穿过教学楼，走到草坪上，春光大好，阳光恰到好处地撒到我身上，舒服得皮肤发痒，白色的卫衣在阳光的照射下闪耀着奇异的光，仿佛是那时我的青春得意。之后，坚持继续上学的本班保送党们也纷纷不去上学了，开始了自己的预习生活，只有我，天天玩游戏吧，就像一个废人一样，几乎就没下床出门过。</p>
+<p>　　这种生活带来的结果当然不是什么美好的后果，这种懒散的习惯不是说改变就改变的。在提前批的学习生活中，维持着这种危险的学习态度的我，开始了我高中长期的挣扎。</p>
+<p>　　高中虽说是市第一的高中，但是终究是小地方的高中，没有竞赛的提前组织，刚升学的初中生甚至不知道有竞赛这回事，我也是其中之一。</p>
+<p>　　然后在我们的信息课老师那里，我得知了有信息学竞赛这个看着就很冷门的竞赛，其实在我们学校，它的确是一个无人问津的竞赛，实验班的学生甚至根本没被宣传到这个竞赛，高考科目中没有信息也导致学生们都往数理化几门竞赛中挤，我也有试过去考数学竞赛和物理竞赛，数学的话，打草稿到试卷上的习惯和长久不做题的手生导致了选拔考试的完全失利，于是就没有考进；物理名单上也没有我，但是通过在后来的讲解考试题的过程中，我似乎知道出了点什么意外，一道题，老师说没有同学做出正确答案，但是我的确是做对了的，再结合我交卷时的匆忙，可以模糊地得到我的试卷被弄丢了的结论，于是就继续学习物理竞赛了。现在想，可能是提前批的期末考成绩差，所以被学校直接刷掉了吧。</p>
+<p>　　一直到当年十月份，才有了信息学竞赛的消息，竞赛教练作为隔壁两个班的信息老师，似乎在他们两个班宣传过，反正当时过去听课的，那两个班的学生占绝大多数，后来他们的班主任训了这批学生一顿，具体内容不得而知，总之人数骤减，只留下不到十人。</p>
+<p>　　接触了算法之后，我是深深被这个新的世界折服了，我知道我一定要一直在这条路上走下去。</p>
+<p>　　机房的学生们似乎只有我迸发了很重的兴趣，只有我去自学后面的内容，而他们就跟着老师很缓慢的进度，到了高一下也还在讲搜索算法。大概，略快于大学的C程序设计课吧。</p>
+<p>　　这样，我错过了高中第一次参加信息学竞赛的机会——因为那时我们才刚开始学。</p>
+<p>　　教练看我学得快，让我和上一届的学长一起训练，于是认识了czs和cwx两位，混得比较熟，就整天跟着他们刷题了，但是不愧是很水的学校，高一下的时候我就已经学得比他们多了。</p>
+<p>　　经过一年的缓慢学习，我大概学完了那本老师给的算法书的所有内容，刷了几套初赛卷，就去上考场了，2014年的NOIP初赛，题目出奇的简单，我半个小时写完了全部题目，自信地提前交卷出来（后来得知这么早交卷在规定里是不允许的），在考试结束后被告知几道题目计算错误，整题整题的分数被扣掉，而那年的分数线又高，于是那年初赛成为了我的黑历史。这年，我们学校的OI队无一人通过初赛，说不出话。弱校，并没有复活的名额，于是告别了那年的NOIP，复赛的时候我就在自己学校的机房里慢慢地A掉那年的题目，在呼号的寒风里，高二了，没有机会去冲省队之类的了，极限就是NOIP省一了。</p>
+<p>　　学这个有什么用，似乎是高中以来家长和老师一直质问我的问题——尽管他们的确没有明确地说出这句话，但是从他们鄙夷的眼神里和不断地提醒我高考才是正道的话语中能够看出来。看到这里，不明情况的看官可能以为这又是一个励志故事了，然而并不是，现在看来，他们说的可能才是最正确的道路吧。</p>
+<p>　　高一下学校组织的竞赛考试里，我勉强拿了个物理竞赛三等奖第一（然而还是三等），跟物理老师拿奖状的时候，他还挺惊讶的：“你还在学这个啊？”，指了指获奖名单上的信息学竞赛部分。两人会心一笑，我就回自己的座位上去了。高中OI的惨状让我意识到，我就是这个学校OI那个承担崛起大业的人，在和现实妥协的前提下，我用了自己几乎所有的课余时间来学习算法，用什么教材，看谁的博客，学什么算法，通通不知道，没有前人的指点，教练的知识储备也没办法满足我了，除了一叠一叠的NOI导刊。高中买了很多算法书，最后才知道哪些书好，哪些书只能当做消遣，甚至不能当做入门书，一直到最后才有了点大概的了解。</p>
+<p>　　然而有什么用呢？自己张扬的性格导致的2014初赛失利已经给了自己一记响亮的耳光，滚回去高考吧，学这个没有出路的。</p>
+<p>　　到最后一次NOIP之前，我还以练手为目的，参加了一个很水的比赛，自己写了一个小球碰撞的游戏，是自己第一个过千行的程序，也是自己第一个可视化的程序，随随便便用VB做了个开始界面，用各种拙劣的连接方式构成了一个看起来挺完备的游戏，交了上去。因为是很水的比赛，所以随便就进了决赛，至于为什么后来决赛的评奖里没有我，不得而知，反正这个比赛只是练手用的罢了。</p>
+<p>　　考了两次物理预赛，都直接出局了，预赛的分数线莫名高，就像NOIP一样的，不知道出于什么心态，作为竞赛卷，竟然甚至没有高考卷的难度。</p>
+<p>　　于是生活就充满了滚粗滚粗和滚粗。</p>
+<p>　　煎熬，挣扎着到了2015年十月。初赛有了上次的教训，我没有提前交卷，接近满分地稳稳地过了（实际上不接近满分都会被刷掉，作为竞赛我认为这是不应该出现的），刷了之前好几年的复赛试题，明确感觉自己有省一的水平了。</p>
+<p>　　学校要求我们写一种类似自我目标的“我的大学我的梦”，我往上写了，考试年级50名内和NOIP省一。</p>
+<p>　　去比赛了。晕车和挑食让不适充满了我的身体，还要惦记着考完NOIP之后回校的月考。</p>
+<p>　　浑浑噩噩地走进了第一天的考场，键盘线很短，放在抽屉里甚至取不出来，我就把它接到主机前面的USB接口上，把键盘放到了自己腿上，旁边监考的老师还跑过来问，是不是需要帮助之类的，出于怕麻烦的心理，我就专心地自己写着代码。</p>
+<p>　　第一题稳稳地过了，第二题看了一会儿，得到了一个结论，就是正确的做法了，咯吱咯吱地敲完代码，写了个批处理文件，把自己的代码和小样例对过了，开始对大样例，但是程序突然崩溃，我作出了批处理写错了的原因，不再深究，放下了这题，去看最后一题。2015年的Day1Test3，一道码农题。手速慢的我知道到结束我也写不完这题的代码，随便敲了个骗分的程序，开始无所事事，心里知道，第二天如果发挥不完美的话，省一就再见了。</p>
+<p>　　在举办学校的食堂吃了点难吃的东西之后，回酒店的巴士上，听到别的学校的OIer讨论问题，似乎都写了最后一题，还听说谁谁要AK了，心里有点不是滋味，和他们对了一下第二题的做法，知道自己能AC，稍微宽心，大概勉强能够省一吧，只要第二天发挥不错。这样想着。</p>
+<p>　　就开始给自己想数据来怼第二题自己的算法，发现少考虑一种情况，自己一开始的写法是没问题的，后来为了简洁，删了一点代码，这题要爆0。我就知道了，第二天即使满分我也拿不到省一了。又是浪的。</p>
+<p>　　当天晚上，我没和教练他们去吃饭，自己漫无目的地在街头走着，麻木得像个没有任何未来的行尸走肉，就是想逃走吧。</p>
+<p>　　第二天就自暴自弃地随便写了一些莫名其妙的代码，从赛场上滚粗了。</p>
+<h3 id="IV"><a href="#IV" class="headerlink" title="IV"></a>IV</h3><p>　　浑浑噩噩地回到学校，看到后面板子上贴的“我的大学我的梦”，上面说要拿省一的字眼似乎总是在刺伤我的心，好像要把我的伤疤揭开来给全班同学看，我就去把它给撕掉了，但是这似乎没什么作用，该面对的还是要面对，接着就是强行给自己打的鸡汤，什么自招没机会还能走高考啊之类的，口气倒是和以往一样不小，要去浙大以上之类的，现在看来，当时的自己到底是依靠着什么东西才能保持这样乐观的估计呢？</p>
+<p>　　然后就开始考理综，不再靠单科，时间控制得非常差的我成绩一如既往的，给本班的同学们垫底，刷题少，懒得背书，这些看起来很好解决的问题都难以解决，在OI上的决心和热情并没有像升学问题一样传递到高考上，并不能像Undertale的主角那样充满决心的我，过着自己都说不出什么意义的生活，无非是学校家两点之间来回，像纺织机上的梭子那样来回，按理说应该产生了很多变化，但走来走去的样子完全没有变化，路线还是那个路线，梭子也还是那个梭子，并没有因为穿梭来回从木头变成金子。</p>
+<p>　　后来试卷越来越多，就没什么时间去想莫名其妙的事情了。晚上睡不着的时候会起来构造两道算法水题，前半夜没想到的细节如果后半夜想到了也会偷偷起来添加笔记，做题的动机非常单纯，就是想做了，和吃饭其实差不了多少，只是一个少一个多，一个必须一个消遣的差别，更准确地说，其实只有自然而然是它们的唯一的共同点了。</p>
+<p>　　应该是三月份，浙江省内高校开始它们三位一体的招生计划了，只有拿不出手的高中统练成绩和可有可无的奖状，申请浙大一定会被表刷了，其余的高校全是看不上眼的，自然没有我什么事情了。自主招生也是。于是我高中学习的半吊子竞赛知识真的成了兴趣小组的那个“兴趣”了，没有别的出路也没有办法激励或者逼迫我更加努力地投入到高考这条路上。除了更频繁的有一搭没一搭的给自己灌鸡汤刷题，别的是没有任何长进吧。还记得那个时候，班主任找我出去，我的奖项向往的高校申请不到，问我要不要考虑省内那些学校的三位一体招生，我一口拒绝了，算是自大吧，我们这些高中时不干正经事的家伙总有一些自视甚高的地方，不管是不是真的高。其实参加三位一体招生是一条保险的路子，更理智的选择可能是参加（虽然更大可能是高考分数就够了，并不需要他们的优惠），一个靠鸡汤维生的家伙是不可能有多大理智的，总之就是没去（这也是为什么现在我在读三本）。</p>
+<p>　　（絮絮叨叨）其实提班主任找我出去的这件事不是为了分析当时自己的处境，而是想要表达那个时候的心酸，当别的同学都被叫出去谈论好学校的自主招生的时候，我被期望的只是省内的几所并不难考的高校。</p>
+<p>　　后来听说，那个时候班主任已经不怎么指望我考得怎么样了，我已经被当做一个不学习的学生了，对我的态度似乎也有一点不大搭理的状态（谁叫我出去谈话的时候真的像个咸鱼一样在那呢，聊不出什么名堂，回去也没做出什么改变），“告啊，他考到哪里去就考到哪里去吧，他不学习的，你不要被他影响了。”这样对我的同桌说。反正我心大，除了和朋友插科打诨，自己接着学一些爱好里的事，做做分内的试卷，生活就只剩下下一顿饭吃什么了，实在有闲就憧憬一下永远不太可能去的大学吧。</p>
+<p><em>//值得一提的是，当时我发现知乎花掉我的时间太多了，就戒掉知乎整个学期，现在看来，真的是明智的选择。</em></p>
+<p>　　就这样，到了高考前的最后几个月，学校领导提出来一个一天提升一分的口号，可以说是天方夜谭了，这种东西怎么可能线性增长呢？但是神奇的是，之后的统练，我似乎确确实实按一天一分的增长率增长了，这也使一天一分成为了我和朋友们之间的一个梗：一天一分，我就能上xx大学之类的。</p>
+<h3 id="V"><a href="#V" class="headerlink" title="V"></a>V</h3><p>　　按部就班的高中里很难发生什么新鲜事，因此记得起来的事情不剩多少了。</p>
+<p>　　我记得最清楚的是和同桌的一次吵架（于是之后就不是同桌了），另外的还有在机房看当年的奥斯卡奖，在乌漆麻黑的科技馆被吓到，去科技馆顶楼，在雷雨天去小机房做题，保送生刚入学时见识到的喊楼大会（后来就没了），之类的。</p>
+<p>　　因此我的高中是在科技馆度过的吗？似乎记得比较多的事情都发生在那里呀，不管了，这时间应该相比较很少了，无论是和在教学楼比还是和别的OIer的机房时间比。</p>
+<p>　　高考前一个星期，适逢巫师系列打折，我注册了自己的steam号，正式入了steam坑，这大概是我钱包能听到的最大的噩耗。之后花在steam上的钱，补票原来玩过的独立游戏和单机大作，追随宫崎老贼的步伐（以一个魂1玩家的身份购入魂3（其实在高三上的时候就已经在关注魂3的宣传了，然后忍住没玩一直到暑假快结束（其实是电脑带不起来））），总之就是数不胜数。考虑到以后可能会购入的PlayStation，我觉得我从一开始就不应该碰单机游戏，嗯，从一开始新仙剑就不应该玩，也许电脑本身我就不应该接触（不然我一定已经是百万富翁了2333）。</p>
+<p>　　我们学校上一届的高考成绩不是很理想（只出了一个北大），于是学校的兴衰似乎就寄托在我们身上了，尽管我现在还是觉得前途堪忧，但是我们这届高考的成绩是确实不错的。</p>
+<p>　　我的高考是这样的，之前统练都紧张得不行，而高考却无比淡定，平稳地度过了高考的几天，不管估分，先玩再说，买了巫师还没玩呢，家长也没多管，嗯，巫师1的优化做得不怎么样，我的电脑甚至带不动，操作手感极烂，画面在现在看来没有办法忍受（而魂1的帧数和画面是完全可以忍受的（只不过我打过补丁（然后后来又不会了））），放弃了从巫师1开始玩的念头，巫师2就没有去尝试，3我不觉得带得动。因此当时的我应该沉浸在魂1的游戏中（魂3带不动（带不动真多啊）），和亚尔特留斯对决了好几天，终于在某天凌晨胜利了（似乎是熬夜的种子），还开心地截了图。之后要换电脑了，匆匆把葛温打败，算是通关了魂1吧。结局中玩家可以选择是否传承初火，传承初火，燃烧自己延续世界，或者是转身离开，成为黑暗之王。我选择传火，不管多少次都一样。理由嘛，总有那么一点想要当英雄的幻想吧，对成为什么的王之类的不感兴趣呀。即使这是个轮回，传火的终会熄灭，灭火的总有人再来传火，选择看起来没有意义。</p>
+<p>　　现在黑暗之魂的故事终于迎来了它的完结，很多坑没有填，但是，在魂3中碰到了魂1中的老朋友我就心满意足了（不愧情怀之魂3），无论是埃尔德里奇吞噬了葛温德林的形象和战斗时的音乐，薪王化身二阶段突然响起的葛温主题钢琴曲和葛温五连斩，变了一种风格的大书库，追随亚尔特留斯的法兰街舞队，破败的亚尔诺德隆，历代传统飞龙桥和大剑，老朋友帕奇，还是DLC1的画中世界和神似希夫的守墓巨狼，大树根，DLC2的地下墓穴，盖尔那神似亚尔特留斯的开场，恶魔王子的战斗场景就是传火祭祀场，如此种种，情怀已经够了，去擦眼泪。</p>
+<p>　　不管你以前是不是传火了，到了一切终了的地方，那些过去存在过的痕迹仍然还在，只不过破败不堪，你不知道应该高兴因为它们都还在还是应该伤心因为它们变成了现在这样。看到这些，你是否愿意回到以前的那个地方逛一下呢？</p>
+<p>　　魂3的主角的身份很有趣，是以前帮助传过火的灰烬，最后还是能选择是否传火，这似乎只是更加表明它的轮回性质，但是将它类比到自己身上，如果说，母校的OI队需要过来人的经验和引导，我是否会选择回到那个机房，给学弟们讲授知识呢？目前来看我的能力应该还不能传火，但是作为灰烬大概是没问题的吧？（其实还是留有一些感情的吧）</p>
+<p>　　后来玩够了，要准备填志愿了，看着答案估分，似乎还不错，勉强能上三本，中大CS是能保证的，北航CS有点虚，大致敲定了怎样填志愿，简简单单，被老爸强迫填满了志愿表，十足没有必要。然后就结果就出来了，上了三本，第三志愿，建工。</p>
+<p>　　顾着玩的我当然没有意识到这意味着什么。</p>
+<h3 id="VI"><a href="#VI" class="headerlink" title="VI"></a>VI</h3><p>　　现在我是一个土木工程的大一学生，知识浅薄，基础不扎实，动不动熬夜，没有信念。</p>
+<p>　　如果没有xxxx支持我，我可能都不知道怎么活到现在。</p>
+<p>　　记得在小学的时候，学素描，老师问过我，将来准备当什么，小学生回答这种问题往往不会是固定的一个答案，其实即使是成年人也是如此吧。我回答过物理学家，律师，教师，计算机科学家，如此种种，理由各不相同，比如律师，主要是喜欢辩论，而且听说来钱。素描老师来问我的时候，我其实没怎么想过，他说建筑师不错，我也觉得，能靠画画过稳定而不差钱的生活是多么惬意啊。</p>
+<p>　　然后记得在初中的时候，在课本上得知有个叫蒙日的数学家，创立了一个几何学分支，叫做画法几何，看着名字，带画字，又是几何，恰好将绘画和数学占齐了，有点向往这门课，当时找不到画法几何的课本，就取消了计划。之后在土木工程的培养方案里看到画法几何，心里也是一阵高兴，以为能学到自己想学的东西了。</p>
+<p>　　现实是幻灭的。建筑学不学习线性代数，不学习画法几何，于是在选专业的时候我选择了土木工程。然后知道画法几何学的是三视图，尽是一些不用教都会的东西，跟绘画没有关系，和几何学也没有什么关系，是个实实在在的工程类课。然后是到现在的土木工程制图，学不到任何原理，全是规范，你也不知道为什么要这种规范，然后是画各种完全不用动脑子也没有半点审美的图，我不知道这些课存在的意义，这不是我想要的大学。</p>
+<p>　　一个工科癌的同学，跟我们讲，读大学是为了什么，我回答，学技术，学原理，被问为什么不去念技校。他说要学大学的精神（然后他自己一个劲刷绩点，并且是个完全的工科中心主义，做的事情流于形式）（精神这个东西还是不能通过在嘴上说说的），然后是一堆虚头巴脑的高论，架子倒是很足。有时候我很好奇他的生存方式，似乎是通过在言语种美化自己所在的环境，在哪吹哪，就好像真的是这样一回事，一边抨击应试教育，一边一个劲做考题，只为了能考到做过的题目，如果有人想说我难道不是吗，那还真不是（有目共睹）。</p>
+<p>　　那么到大学来到底是为了什么，是随大流来读大学吗？当时不愿意和那个同学争论，我回答我是来大学谈恋爱的。之后想，其实应该会不止吧。这个回答也是经常变化的，明确的答案大概没什么人回答出来。但是我知道的是，现在我只想在秋风飒爽的时节，骑着自行车，在小巷穿梭，听自己想学的课，躺倒在长椅上（最好有膝枕），看自己喜欢的书，和自己喜欢的人相伴，无忧无虑，没有deadline压迫，没有莫名其妙的恶性竞争，没有对将来的工作的担忧，就这样度过时光。</p>
+<p>　　我认为我需要知道，我学的东西究竟有什么意义，它本身是美的吗？</p>
+<p>　　把时间花在自己愿意花时间的地方大概是对时间最基本的尊重了吧。</p>
+<h3 id="VII"><a href="#VII" class="headerlink" title="VII"></a>VII</h3><p>　　嗦不粗话。但是未完待续。</p>
+
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/03/31/gauss/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/02/14/hello-world/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="ZhhhPlus's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        252049155@qq.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/03/">三月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/02/">二月 2017<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/代码/">代码<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/文章/">文章<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/月历/">月历<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/gallery" title="图库">
+                
+                    <i class="material-icons sidebar-material-icons">dashboard</i>
+                
+                图库
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/tags" title="标签">
+                
+                    <i class="material-icons sidebar-material-icons">loyalty</i>
+                
+                标签
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">5</span>
+            </a>
+        </li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.svg);">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.svg);">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;Cat and Owl
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import File -->
+
+    <script src="/js/lazyload.min.js"></script>
+    <script src="/js/js.min.js"></script>
+
+
+
+    <script src="/js/nprogress.js"></script>
+
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+<script>
+    <!-- Offer LazyLoad -->
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    <!-- Start Queue -->
+    $(document).ready(function(){
+        setTimeout(function(){
+            setInterval(function(){
+                queue.execNext();
+            },200);
+        },3000);
+    });
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>

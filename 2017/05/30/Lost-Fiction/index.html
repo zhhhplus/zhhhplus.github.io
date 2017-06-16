@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.3 -->
+
+    <!-- Title -->
+    
+    <title>
+        
+            Lost Fiction | 
+        
+        Cat and Owl
+    </title>
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    
+    
+    
+    
+    
+
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="ZhhhPlus">
+    <meta name="description" content="Codes and Stories">
+    <meta name="keywords" content="null,瞎写">
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/cat.png">
+    <link rel="icon" sizes="192x192" href="/img/cat.png">
+    <link rel="apple-touch-icon" href="/img/cat.png">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Cat and Owl">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://zhhhplus.github.io">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Lost Fiction | Cat and Owl">
+    <meta property="og:description" content="Codes and Stories">
+    <meta property="og:article:tag" content="瞎写"> 
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS & jQuery -->
+    
+        <link rel="stylesheet" href="/css/material.min.css">
+        <link rel="stylesheet" href="/css/style.min.css">
+        <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bg.png);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/queue.js"></script>
+    
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+
+    
+
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
+<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#养野猪传奇-0-2017-02-16"><span class="post-toc-number">1.</span> <span class="post-toc-text">养野猪传奇#0 2017-02-16</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#前前言"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">前前言</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#野野野猪"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">野野野猪!?</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#野猪吃吃吃什么"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">野猪吃吃吃什么?</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#这部分野猪不是主角"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">这部分野猪不是主角</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#消失不见的野猪们"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">消失不见的野猪们</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#养野猪传奇-1-2017-03-05"><span class="post-toc-number">2.</span> <span class="post-toc-text">养野猪传奇#1 2017-03-05</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#值得一提"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">值得一提</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#告示牌"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">告示牌</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#气候和伏笔"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">气候和伏笔</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#和森林有关"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">和森林有关</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#养野猪传奇-1-5-2017-03-08"><span class="post-toc-number">3.</span> <span class="post-toc-text">养野猪传奇#1.5 2017-03-08</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#彩蛋嘛，就是很短的"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">彩蛋嘛，就是很短的</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#小镇的早晨"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">小镇的早晨</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#养野猪传奇-2-2017-03-09"><span class="post-toc-number">4.</span> <span class="post-toc-text">养野猪传奇#2 2017-03-09</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#告示板！"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">告示板！</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#钟"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">钟</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#养野猪传奇-3-2017-04-13"><span class="post-toc-number">5.</span> <span class="post-toc-text">养野猪传奇#3 2017-04-13</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#270°"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">270°</span></a></li></ol></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/thumbnail/dragon.jpg)">
+    
+            <p class="article-headline-p">
+                Lost Fiction
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>ZhhhPlus</strong>
+        <span>5月 30, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/瞎写/">瞎写</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Lost Fiction&url=http://zhhhplus.github.io//2017/05/30/Lost-Fiction/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Cat and Owl&title=Lost Fiction&summary=Codes and Stories&pics=http://zhhhplus.github.io/img/cat.png&url=http://zhhhplus.github.io/2017/05/30/Lost-Fiction/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h2 id="养野猪传奇-0-2017-02-16"><a href="#养野猪传奇-0-2017-02-16" class="headerlink" title="养野猪传奇#0 2017-02-16"></a>养野猪传奇#0 2017-02-16</h2><h3 id="前前言"><a href="#前前言" class="headerlink" title="前前言"></a>前前言</h3><p>　　硬盘弄坏了，所以重新搭博客了，就把之前写的放到了一起，之后再说吧。</p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>　　说来也是奇怪的,这个写了那么久,居然连个标题都没有。所以就随性起了个这样的名字……诸位不要在意就是了。很接近《孤岛危机》的翻译方式嘛,照着第一部的内容起就好了,管它后来怎么样呢,谁知道它能不能出第二部。本着起不来名就胡乱起的原则,就有了现在这个标题了。顺便在这里,要感谢一下高三的时候陪我一起写小说(摸鱼)的白告和黄尼玛以及提供了作文本载体的沁姨和……(啊咧,还有谁嘛?算了,并想不起来)。<br><a id="more"></a><br>　　在这里讲述一下这本小说的起源(虽然并没有什么)：是这样的,某日,黄尼玛的作文被吾等传阅,标题为：“家里住着一群野猫是种什么体验”,奈何在下眼力不济,错看成野猪,其后某节自习课上,为了打发时光,便有了这第一篇。之后发现写这些很稀奇古怪的东西很有意思,就开始利用各种高三的宝贵时间写这个了,并没有什么文笔,单纯为了好玩。其后一起写的环节也是很有趣就是了,现在把这个放到刚搭的博客上面,算是纪念一下某个奇怪的时期吧,以及将载体从纸改成博客,也是方便了共同创作不是嘛?(到这里是不是都还是释题的感觉以及上篇博文那个释题怎么回事请解释一下：不在,CNM(真鸡儿丢人,还说大秦话(暴露了写前言的时间呢(算了,并没有什么关系</p>
+<p>　　因为有一个输入的过程,即兴发挥加以修改是难免的,因此在这里加以说明,共同作者请加以理解(姑且理解成润色吧喵)。有些地方修改目的是使设定更加自洽,有些地方则考虑到一些其他的情况,不胜枚举。嘛,不管了,我自己写的部分想怎么改就怎么改吧!(摊手</p>
+<p>　　这里是对黄尼玛的吐槽：姐姐!您弄丢了好几本作文本呀!我这么严重的拖延症都搭好了博客,您倒是打字打几本呀!以上。</p>
+<h3 id="野野野猪"><a href="#野野野猪" class="headerlink" title="野野野猪!?"></a>野野野猪!?</h3><p>　　在还没有搬到新家时,我们住在一个不高但在周围的一片平房中显得十分突出的小四层里,所谓“在身材矮小的人集合当中挑选身材高大的人”,它的确算是一座显眼的建筑物。它楼下是有类似院子的构造,总之就是有一间堆满了杂物,远看也尽是灰的小屋子——听说是别人家的。</p>
+<p>　　起先,这屋子并没有引起我的注意,只是偶尔透过甚至称不上透明的窗子往里瞟一眼。直到我的膝盖中了一箭——啊不,直到我那小了我一个月的堂弟跑来问我那间屋子是怎么一回事。年轻人的好奇心总是挡不住的,恰好的是,当时我正好有一把刚捡的没什么人要的钥匙,我塞进了他手里,并鼓舞人心地对他讲：“这是钥匙,你去探索吧!”正如耶和华让诺亚造舟,诺亚便去造了,堂弟便也去开门了。</p>
+<p>　　是这样的,他手持那把钥匙走过去的时候,我还在思忖打不开之后解释的对策,息事宁人的确是门手艺——我是学不来的。然而,门开了。这一定是一部奇遇小说里面的情节吧!哪儿有这么巧合的事情!</p>
+<p>　　总之,我当时倒是理所当然地跟上去,并没有表现得多讶异。</p>
+<p>　　伴随着门打开的“砰,吱呀”声,一块整齐的倒下的三棱柱空间的灰尘都被照亮了(也许我现在可以求一下落影?)——然后是杂物倒塌下来的声音——以至于灰尘的轨迹都神似布朗运动了。一阵沉默,“好像惹事了。”堂弟僵住了一会儿,然后说道。</p>
+<p>　　他并没注意我注意到的屋子里的几双闪光的眼睛。“我们快走吧,主人来了可就不好了——”这样,我们俩就往小学操场去了。</p>
+<p>　　在去小学的路上,有一条满是木头和油漆味道的小巷(一家门前甚至铺满了红色的油漆,还有一张鲜红的供桌,晚上我是决计不肯去的),这些味道在小学时代的记忆里大约是不会散去的吧。</p>
+<p>　　在这样刚入少先队,脑中还循环着“鲜艳的红领巾飘扬在前胸”的年龄,我竟然会想独自去小屋历险,也是挺神奇的——要知道,那时的我因为老爹整夜放鬼故事的缘故,很是怕黑,睡觉都要开小夜灯,居然敢于闯进一间诡异的积灰屋子!</p>
+<p>　　这样,我总算辩认出那屋子里的生物——凭借少年人优秀的视力和长期收看动物世界的经验——那是一窝野猪。</p>
+<p>　　众所周知,野猪是一种凶猛的杂食性动物,有獠牙,在山中连老虎都要怕三分(所谓狼奔豕突,其中豕突就是指它们的攻击方式,后来被称为“突突突”。)一只人类幼体竟然敢于靠近——也是我命大。但是这些都不是我当时的关注点,最重要的是我的好奇心：它们究竟吃什么,在这样一间荒废的屋子里面应该没什么食物才对。</p>
+<h3 id="野猪吃吃吃什么"><a href="#野猪吃吃吃什么" class="headerlink" title="野猪吃吃吃什么?"></a>野猪吃吃吃什么?</h3><p>　　以下是我的英勇事迹：当时我像逗家里养的小猫小狗一样(那时猫的地位还没有超过人类)去抚摸那几只野猪,一只大的,其他小的,因为它们四处乱窜,总不聚在一起,也就总数不清(不少于四只),后来也从没数清过。野猪身上毛茸茸的,但是说实话很扎手。倘若这是一部童话,野猪们该站起来和我打招呼了；倘若这是惊悚故事,野猪们该袭击我了；倘若这是传奇故事,我该开始打野猪了——然而都不是。(什么?小说名?谁告诉你小说名就必须和类型一样啦?哼哒)它们当时仅仅“呦呦”地叫了几声,像寻常的(巨型)小动物一样。</p>
+<p>　　在后来的日子里,我经常去看望它们,交流友善,我对它们吃什么的研究得以延续下去。</p>
+<p>　　它们真的是杂事动物,吃菜,吃肉,那时候我还带过鱼给它们吃,甚至螃蟹都能一口一个,这些食物无一例外忽然没了踪影,汁水都不剩下(再看我,挑食的情况与之对比,简直就是什么都不会吃)。但是这并不能解决一个疑问：我去之前它们吃什么。在几次路过时随缘的观察中,我发现它们在吃杂物。爷爷是做木工的,这间屋子里尽是些木制桌椅,这时便作为了野猪们的口粮(考虑到它们的食量,倒不如说我带的食物仅仅是零食)。这间屋子里时不时就会少几个凳子,多出几块木头碎和木屑(铁钉它们大概不吃吧,但是爷爷的木制家具都是榫接结构的,不太用得到铁钉)。</p>
+<p>　　它们吃桌椅的过程倒挺印象深刻的。那次我忘带食物给它们,它们先是努着铜铃样的眼睛盯了我一会儿,似乎期待我变出什么东西一样,在意识到不可能之后,它们开始啃食桌椅,作个不恰当的比喻,就像啃甘蔗一样(因为桌椅并没有汁,野猪们也不吐渣子),就着几块布,有点儿像紫菜。在不提供任何其他的食物的情况下,它们一天大概能吃掉一整张桌子,毕竟干巴巴的不好吃,我敢打赌,如果桌子味道很好的话,它们能解决三张。</p>
+<h3 id="这部分野猪不是主角"><a href="#这部分野猪不是主角" class="headerlink" title="这部分野猪不是主角"></a>这部分野猪不是主角</h3><p>　　野猪居住的屋子上方正是我家阳台,那时栏杆上爬满了一种叫做金铃子的植物,在方言里叫做“红娘”,据说也叫赖葡萄,除了藤本,我是看不出哪里像葡萄的,依我看,叫做赖金铃还差不多。这种植物的果实在未成熟时像别的植物果实一样,绿色,小,成熟之后则是金黄色,一般剥开来吃里边的红色的籽——这也是为什么它被叫做“红娘”,也就是红籽的意思啦。在不结果的时候我也说不上来它和葡萄藤有什么差别——我倒是希望它是一株葡萄呢——因为我并不会吃金铃子。</p>
+<p>　　之所以要讲金铃子,是因为它在栏杆生锈被换掉之前就消失不见了。那是一个下午,我站在阳台上倚着栏杆,嗅闻着夏天雨前的潮气(也有说土腥味的),看着房顶们瓦间长出的植物,一批蕨类,另一批则很像多肉。这批房子里当然包括了野猪们住的那间屋子了。那时野猪们已经把桌椅们吃完了,开始解决那些碎木头了,偶尔会跑出去啃草皮。它们就在这样的雨天里把金铃子藤吃完了,我就眼睁睁地看着,无动于衷。金铃子藤一定可口不少吧,我这样想着,一点也不心疼——我又不爱吃金铃子,况且之后万一种了葡萄呢?令人失望的是——栏杆上再也没有缠绕过什么植物,爷爷如果健康的话,我想他是不介意照料一些植物的,家里有那么多兰花,桂树,樱桃树,红豆杉和一棵几十年的无花果树,一定不缺这么一株葡萄吧。</p>
+<p>　　大约是意识到植物的紧缺,它们不久之后就搬走了——植物们表示感恩戴德。</p>
+<p>　　野猪搬走当天,听说老屋(另一间很近的屋子,主要用来当作厨房+餐厅+休息室)出现了一条蛇——只不过已经被踏死了,大约是野猪的足印吧,大家纳闷了很久——乡镇里怎么可能有野猪。至于为什么没被吃掉,这大概是它们挑食的唯一一次了吧。</p>
+<p>　　小学那段时间里,最最喜欢的猫狗都在我不知道地时候消失不见了(可能是送人了),小狗似乎在工厂里被拴起来不能走动,发狂咬了人——被打死了。锁链大概使人发狂吧。与猫狗相比,野猪们和我的关系没有那么亲密,搬走的时候大概也没有猫狗不见的时候难受吧,但是空落落的感觉仍然环绕身边。</p>
+<p>　　野猪们可没有被拴起来,一定过得挺舒适的吧——毕竟不挑食。</p>
+<h3 id="消失不见的野猪们"><a href="#消失不见的野猪们" class="headerlink" title="消失不见的野猪们"></a>消失不见的野猪们</h3><p>　　在接下来的时间里面,我们搬到了新家,自然而然地走过了小学的生涯,离开林桥(虚构地名)去了桌附中,再后来就到了桌州中学,忘掉了应该忘掉的东西,野猪的记忆也渐渐模糊不清,比如我也想不起来是小学几年级遇见的它们。生活就是这样在不断的遗忘当中过去,大约是用了一种会失真的压缩法,不重要的记忆的细节甚至本身都被完全抹灭了,已经稍微失真的记忆回忆起来也不过是重写罢了,无关紧要的真相是怎么样的早已被压缩法舍弃掉了。</p>
+<p>　　在某个寒假(在学校参加竞赛培训的我根本没有所谓寒假),我有早来到科技馆六楼,恰好看见上楼的铁门没有关,就走了上去,栏杆旁边垂着一段绳子,似乎刚刚搬过重物,工人师傅们大约已经去吃饭了,可以想到,这七楼应该就是学校储存杂物的地方吧。于是,我可能是我们这届学生中少数的几个到过科技馆七楼和八楼(八楼甚至在楼下都看不到)的人了(其他几个是我带上去的)。</p>
+<p>　　学校七楼八楼因为铁门一直锁着,所以也没有清洁工来打扫,地上积的灰足有本文(原载体：作文本)那么厚,可能是很少有人走上去的缘故,即使是在中午也透着一股寒意。</p>
+<p>　　就这样,我在七楼抵达了学校天文台(其实就是个巨型球状物,由三角形板构成,所谓科技馆顶个球用,估计一定不是正多面体)下面,算是游览了够。</p>
+<p>　　须臾,我感到没什么趣味了,便要下楼,顺便看到空教室里面都是不用的桌椅和大屏电视(被投影仪取代了的时代的泪水),印证了我之前的猜想。</p>
+<p>　　不经意间,我碰到了一个寻常的放杂物教室的门。</p>
+<p>　　欸欸欸!杂物倒下来了!</p>
+<p><em>//吃掉遗失在记忆里的东西。</em></p>
+<h2 id="养野猪传奇-1-2017-03-05"><a href="#养野猪传奇-1-2017-03-05" class="headerlink" title="养野猪传奇#1 2017-03-05"></a>养野猪传奇#1 2017-03-05</h2><h3 id="值得一提"><a href="#值得一提" class="headerlink" title="值得一提"></a>值得一提</h3><p>　　当时写这篇时，正是2016年3月3日，几乎就是去年的今天了（强行一周年），我猛然发现，自己似乎确然没有记录过写这些乱七八糟的东西的写作历程。那个时候似乎是这样的吧，教室外面的告示牌显示着错误的倒计时，鲜红的仿佛在报错而不像是警告，气氛还是逼仄得令人喘不过气，被大学生活惯坏了的我已然想不起当时的情景了，并且大概会永远不知道应该如何定义这种状态的性质了吧。</p>
+<p>　　现在想来，这一年的时间里面真真切切地发生了很多的事情呢，以至于我怎么都回想不起来了。稍微有点侥幸的幸福感，因为当时似乎有那么一点意识想要记录下来生活的点点滴滴，破天荒地坚持写了一阵子类似日记或者学习笔记的东西吧，甚至这系列瞎写的小说里也包含了当时的一些场景，虽然不很清楚，但是模模糊糊的环境也能像走马灯一样浏览过去，能够这样说：这样啊，我记得的。</p>
+<h3 id="告示牌"><a href="#告示牌" class="headerlink" title="告示牌"></a>告示牌</h3><p>　　现在是3月3日，阳历。距高考还有96天。</p>
+<p>　　在初中以前，我都生活在一片叫做林桥的森林里，紧紧地贴着一块称不上大的海，但不得不说，比起齿轮咬合甚至母猩猩抱小猩猩的姿态，这更加像一块咬剩下的肉与它所挂的骨头的姿态；具体来讲，就是即使是只是海，不是洋，海也拥有远高于湖的地位，绝对不肯屈辱地被称上湾或港，而只能是海；再简单点讲，就是它并不被陆地包围或者半包围，也无法环绕陆地，势均力敌，就像固拉多和盖欧卡的关系，这才被称为海。</p>
+<p>　　尽管如此，这里的居民总是食用一种叫做海鲜的东西（注：如皮皮虾），形态各异，有壳无壳有刺无刺——总之就是没有我会吃的，这是题外话，就不在此展开了。</p>
+<p>　　却说在林桥与海交界的地方是一片悬崖，怎么讲？悬而不倒？将倒未倒？若立若倒？反正看起来很危险的样子，看起来坚持到现在没有倒下也是挺难为它的，危险的外观不知道有没有为之出力，保证了没什么人敢于接近它，甚至寻死的人都不会去靠近它。且不论倒不倒，悬崖上苔藓密布，必定容易滑落，而一旦滑落，即使运气好，没碰到海边礁石，触到海面那巨大的冲力也足以让人筋骨寸断了，不信的人不妨到那儿跳一跳，只敢去泳池跳的一定是感受不到其中精髓的。</p>
+<p>　　林桥的地名来源于一处景观，之所以称为景观，是因为它除了观赏，并没有其他的价值。此处景观，那可是非同小可，用某只猴子的话来讲，那是“大造化”！但作为景观，按照惯例是要夸大其辞一番的——折中一下，它就是悬崖上一处形状像桥的凸出岩石，有那么一点难以形成，但是也不能算十分稀有。说是桥，莫如说是梁，而石梁这个名字已经被人注册了，石桥又太没意思，最后就因为它连接了林与海，终于叫成了林桥，以景观命名的地方并不少见，因此这块区域都叫做了林桥。至于这种风气似乎是从钱江传来的，也是作怪，不就是有一条全是钱的江嘛？那个叫做钱王的家伙炫富也太没审美。在托尔金先生翻译的一部史书里面就记载了这件炫富的行为：“他的财富在山中奔流，将河水染成金黄。”在这件事情之前，钱江一度被称为Running River。</p>
+<p>　　林桥虽然主要为当地旅游业做贡献，但是却不能随便靠近——至少现在是这样。在我上初中时，有个不知好歹的游客硬是要跑到林桥上——人有失蹄。据说这人的尸体都没有办法找到了，毕竟悬崖下面就是海呀。闹出人命了当然就多出来一点改变——那儿立起了一块告示牌，不再允许人靠近了——但大概只起警告作用。</p>
+<h3 id="气候和伏笔"><a href="#气候和伏笔" class="headerlink" title="气候和伏笔"></a>气候和伏笔</h3><p>　　伏笔就是伏笔，不能透露的，一定要问的话，我只能说：无可奉告。</p>
+<p>　　林桥地处亚热带，但是天气极热，而且多雨，因此其森林倒是更加像热带雨林一点，植被密布，生物种类繁多，所谓林子大了什么鸟儿都有，乱七八糟的事情是绝对不会少的。</p>
+<p>　　在当地树下总能看到一种白色的菇，能否食用倒是不知道，因为也没什么人跟我描述过它的味道，因此就算能够食用大概也不会很好吃吧。它们生长的密集程度和外观在注意力方面的待遇和黄粉蝶类似：偶尔能看到，但只要看到这种生物就总是它们，外观说不上丑，但是毫无特点——无特点到人们都不愿意浪费时间去察觉它们——除了最最悠闲的小孩子和笔者这样的整日闲逛的家伙。</p>
+<p>　　在树下发现菇类并不是什么引人注意的事情，甚至上不了小镇的日报，但是再怎么平凡的菇也有它的成名梦想。林桥多雨，菇们的生长速度远大于春笋。你如果在下雨天忘记关窗或者故意开着，任由雨点打进室内，而室内恰好铺了地毯而非光溜溜的大理石，地毯就会很好地尽到它培养基的职责，来告诉你一个事实：室内也能长菇。听说有人藉此契机，发现了巨大的商机，将野生真菌室内养植，凭借林桥物种繁多（当然也包括菇类）的特点，脱贫致富，最近可能正在养植灵芝。（他对外宣传都是说野生的就是了</p>
+<p>　　（唔唔，已经3月4日了——呼——）</p>
+<p>　　<em>注：可见当时似乎也熬夜了，就像现在是2017-03-06 00:42:17一样，呼——</em></p>
+<p>　　说到菇类，在一个残酷的世界观中，恐怕也能造成巨大的破坏吧，没错我说的就是黑暗之魂。追究菇的生长环境，不是充满了腐朽阴湿的气氛吗？但是它本身白白胖胖，倒不如说是十分讨喜，这种在观念上不协调的搭配似乎要撕裂开什么但是又没有撕裂任何东西，勉强可以用装腔作势来形容吧。</p>
+<p>　　言归正传，今天是2016年3月5日（距离高考还有94天），我那个传奇（虽然我似乎并没有听说或者提到过什么他的传奇就是了）堂弟的生日。反复核对时间是干我们这行必要的职业习惯（不然怎么度过剩余的复习时光（苦笑）），具体就不细说了。</p>
+<p>　　<em>注：虽然有删改，但是这么短大约是摸鱼摸多了……</em></p>
+<h3 id="和森林有关"><a href="#和森林有关" class="headerlink" title="和森林有关"></a>和森林有关</h3><p>　　森林总是和一个古老的职业联系在一起——猎人，林桥不像平常小说中的森林，倒是很平常的都是渔民和农夫，毕竟是稳定能吃饱饭的活儿。先进地方来的看官读到这里恐怕要笑出声——现在这年代，还有不是写代码的生计啊？不怕诸位笑话，林桥就是这样一个落后并且丝毫不认为自己落后的地方，居民住着茅草屋，满足得就像住在豪华的别墅里，这是一种生活方式，至于好坏，看诸位自己心里所想吧。</p>
+<p>　　值得一提的是，有那么一段时间，这里的茅草屋持续减少，茅草屋消失现场总是遗留着大型兽类的足印，在这样的因由下，茅草屋也就顺势退出历史舞台，固化的居民也被迫新建了相比较新式的砖石楼房。</p>
+<p><em>//当没有人想起来的时候，它们就真的遗失了。</em></p>
+<h2 id="养野猪传奇-1-5-2017-03-08"><a href="#养野猪传奇-1-5-2017-03-08" class="headerlink" title="养野猪传奇#1.5 2017-03-08"></a>养野猪传奇#1.5 2017-03-08</h2><h3 id="彩蛋嘛，就是很短的"><a href="#彩蛋嘛，就是很短的" class="headerlink" title="彩蛋嘛，就是很短的"></a>彩蛋嘛，就是很短的</h3><p>　　一个炎热的夏天里，就是容易发生一些怪力乱神的事情，阳炎眩乱的故事发生时间就在夏天，或许和热空气造成的对流有关，看到的很多景象就平添了一分奇幻的色彩，热昏了头之类的说法高温造成的身体机能下降固然占了一部分原因，紊乱的气流恐怕也出了不少力。不论原因究竟是什么，夏季的高温和心浮气躁里，出点什么事八成不是什么问题。</p>
+<h3 id="小镇的早晨"><a href="#小镇的早晨" class="headerlink" title="小镇的早晨"></a>小镇的早晨</h3><p>　　一个人 写小说不能尽往里边塞彩蛋，是吧？@JeffL。</p>
+<p>　　8月11日，距高考还有87天。别，别问。贵桌中的告示牌就是这么任性（有点想回去看看它怎么样了），它可是故事的核心呢！//从3月到8月发生了很多很多事情，可以说如果没有这段时间我的人生就很不完整了，所幸告示牌的出错并不能改变什么。</p>
+<p>　　这里就要问了，究竟是出现了怎么样的错误才能令告示牌出现这样的显示，其中的逻辑究竟是怎么样的，告示牌的结构又是如何，我们将在接下来的章节中一一揭晓。</p>
+<p>　　煞有介事的对告示牌的评价：故事的线索，高三学生整整半年的关注焦点，它的身影充斥在高三生活的每一个角落，甚至一些学生在高考结束之后仍然会梦见这座精神上的大山。在这个高三学生写的故事里理所当然地成为了一个灵感来源，和记录时间的原因。它紊乱的时间显示象征了高考这一活动导致的学生学习方式的乱象；它后来的趋于平稳和准确则象征了学生对冲刺的复习步骤和紧张的摸鱼生涯的逐渐适应；高考结束之后的熄灭则为高中生活的终结画上了一个圆满但是略显伤感的句号，仿佛一切都归于平静；但是告示牌本身并未被拆除，则说明了总有一日会重新开始下一场轮回，高中生们的生活可能永远不会被改变；以及告示牌上红色的数字就像老大哥的眼睛，让你意识到——你生活在一个乌托邦中（似乎没什么问题）。</p>
+<p>　　有人跟我提到：小说用第一人称会降低档次，那么：</p>
+<p>　　在林桥，一个寻常的早晨。主角正走在小巷间，神色慌张，步伐紧得像刚拧过发条的地精——僵硬但是紧凑，左摇右晃但是精准，不断蹦出似乎是零件但是又看起来并不会影响到他运作（因为出来那么多他似乎也没出什么问题）的弹片。<br>　　这样怎么样呢？</p>
+<p>　　发生了什么！？那块牌子上写了九月了！</p>
+<p><em>//半夜更新是病，得治。</em></p>
+<h2 id="养野猪传奇-2-2017-03-09"><a href="#养野猪传奇-2-2017-03-09" class="headerlink" title="养野猪传奇#2 2017-03-09"></a>养野猪传奇#2 2017-03-09</h2><p><em>//不命名了，哼哒。</em></p>
+<h3 id="告示板！"><a href="#告示板！" class="headerlink" title="告示板！"></a>告示板！</h3><p>　　这是一件非常值得疑惑的事情。时间仿佛突然放慢了它的脚步——某牌上还是九月份。从这种怪异的变化当中，我似乎看到了对我们这些在任何方面都停滞不前的人的轻蔑。也或许只是电路板长得奇形怪状了些。</p>
+<p>　　但是，更可能的是：一群毫不关心学生感受的人在操控那几个鲜红的数字。并且，也许那片某牌只提供加数字的功能，负责的人也像原始人一样，只会用最原始的方法在上面加数字，过一天，打一个结，偶尔忘记了自己的工作，也就算了，可以说是很不负责任了呢。甚至在这种设定下，能够挺合理地解释牌子上明晃晃的“9”月份。某日，应该在3月，负责的，我们就称呼他为钟。他迷迷糊糊地起床了，然后就带着一股起床气和对低工资的不满，像个十分气的气球，缓慢地走到他上班的车边，踏上了一个满不情愿的旅途。终于到了办公的地点，迷迷糊糊而且似乎带有泄愤的目的，他在控制台上胡乱抹着，也不知道自己到底在干嘛，自以为在随意挥洒着自己的个性。等到很长时间之后，他终于意识到自己做了什么，但也不是十分在意。他想到了一个解决方法，并且甚是得意，在月份上多按了几下（落后的告示牌控制系统限制了一些功能，而钟似乎觉得也够用了，就好像一些老师认为Turbo C够用了一样）。于是现在月份栏显示的是“8”了。钟站在告示牌下，端详着自己的杰作，满意地推了推自己65535度的眼镜，在他的眼里，它俨然已经是一个十分正确的数字了，至于下个月，再说吧。之后某天，他无意中又按到了那个按钮，月份又增加了，但是在他看来，也并没有什么差别。即使他的视力是完好的，这也是无所谓的，混日子的低工资的工作，时间本就像是停滞不前的东西，像维苏威火山的岩浆岩，在炽热褪去之后，流动的性质也随之消失，变成了凝固的死气沉沉的而且丑陋的石头，既然如此，是几月几日又有什么意义呢？是哪一年又有什么意义呢？并不能改变他这样的生活，偶尔出现的换一种生活方式的想法也不过是痴人说梦罢了，长期枯燥无味的没有技术含量的工作早已消磨掉了他的锐气，夺走了他的能力，令他成为了一个除了每天按时或者不按时来按很少的几个按钮之外什么都做不了的“专业人才”。</p>
+<p>　　叙述回到这个告示牌，我不觉得这种毫无技术含量和诚意的告示牌可以激发学生的斗志，鲜红的光只能令学生感到烦躁，令他们没有办法集中注意到自己的作业上——比如我现在就在这里写这篇可有可无的文章。</p>
+<h3 id="钟"><a href="#钟" class="headerlink" title="钟"></a>钟</h3><p>　　主角从容地迈进了一个小巷口，停下，仰视，是一座钟楼。大得显假的钟里，并没有秒针的存在，这令它就像完全没有运行一样，甚至像一个毫无用处的摆设一样，但是拿手表跟它一对，则令人惊奇地完全一样。</p>
+<p>　　主角是钟楼的所有者，并不像其他拥有钟楼的人一样雇人看守，不知出于什么样的理由——或许是情怀，他选择亲自看守，一边守护着自己的时光，一边浪费着自己的时光。</p>
+<p>　　整个钟楼都没有动力装置，齿轮却从未停下过，这是一件奇事，有待发掘——好在目前的镇民还没有人有机会发现，不然恐怕不仅要轰动全镇，还要轰动全球了。</p>
+<p>　　主角，不妨叫他工好了。（管理钟表的，偶尔负责维修的人，不就是钟表工嘛。）</p>
+<p>　　工从小生活在林桥，生活状况基本上没人注意，毫无存在感可言，就像这栋钟楼一样。人们只知道他有这座钟楼，就像他们只知道这座钟楼属于他一样。拥有一座钟楼，似乎可以从某个角度证明他祖上或许阔过，但是镇民知道的东西可以说寥寥无几，他们也漠不关心，完成自己的工作就已经够忙了，并没有什么必要去关心这个几乎和任何人都没有交集的家伙。事实上，即使自己的工作做完了，为了不显得游手好闲和多管闲事，他们往往也选择什么都不做，什么都不谈论——这似乎是保证自己的生活秩序和节奏不被摧毁的唯一行事准则。</p>
+<p>　　这座钟楼虽然也是没什么存在感，但是倒是十分特别了。因为世界各地的钟楼往往即使不是当地的一个标志建筑物，也经常被当作时间校对的标准。这座钟楼薄弱的存在感正可以说是它的特别之处了。</p>
+<p>　　我和工是在一个十月的下午认识的，他年龄与我相仿，交谈时很专注，其余时间心不在焉，届时空洞的眼神就会像是要和宇宙某处的某人取得联系，从这样的描述来看，他就像是一个专门为聊天设计的机器。工戴着一副金丝框的眼镜，我不确定这样的一个平时都在发呆的人是否需要眼镜这样的工具。但是我可以确定的是，在那个十月，一副能令人看得清晰的眼镜是很必要的，即使是在一年四季无甚变化的毛竹林里，十月的气温和湿度也能令人看出一些从来发现不了的美妙之处，倘若没有这样一副眼镜，那也是太可惜了。</p>
+<p>　　工就坐在毛竹林中的一个或许可以称为凉亭的木棚子里，试图看穿一根竹子，他后来和我说过，当时他甚至能准确地报出竹筒里衣的层数。那种很多层的衣都很薄，手被扎到就会很不好受——不是干干脆脆的疼，而是既痒又疼，很难描述，要完整地体会到，诸位不妨自己去试试。不过据说可以用来做笛子的膜，就是那个发声（或者扩声？）的部分咯。至于这片毛竹林上的竹衣配的笛子音色如何，并不知道：我一不学笛，二没竹子。乱砍滥伐总是不好的，我也没砍刀不是吗？之所以说这些，你们不觉得竹衣和某类人很像吗？脆弱，可能伤人，但有时意外的有用。工当时的状态基本就是这个样子。他平时不离开钟楼的，那次出门本身就是一件奇事。</p>
+<p>　　钟楼是工的父亲留给他的，据称。我问起工这件事时他迟疑了很久，补充道：“这副眼镜也是。”于是我不禁好奇起来：究竟是怎样的人才会这样分配遗产，就问起了工他的父亲。工就走到一个钟表盘前面（顺带一提，钟楼里到处都是钟表，各个品种的都有，几乎可以开一个展览会了，据说这些钟表很早以前就都在那儿了，也许是一堆可以卖出很高价钱的古董（如果好好打理的话）），拿出了一张原本根本发觉不了的纸，抖掉了上面的灰，几乎迷住了我的眼睛，泪眼模糊的我还是看见了那张纸的全貌，上面全是怪异的符号，于是我大致能够理解那些看不懂代码的人眼里的代码是种什么体验了。</p>
+<p>　　“都记在这上面了。”这并不影响我看不懂那些符号——那张纸上的符号根本就没有什么规律嘛，面对一件毫无头绪的东西，很难说自己获得了什么满足感。</p>
+<p>　　为了显得不那么外行，我接过纸，念了三声“芝麻开门”，然而什么都没有发生，除了被灼热的奇怪目光注视了一会儿。</p>
+<p>　　“你找找看规律，看不懂我也不会告诉你的。”</p>
+<p>　　“不以令别人明白为目的的信息交流就是耍流氓。”</p>
+<p>　　工嘲讽地笑了：“反正我也看不懂。”</p>
+<p>　　自己也看不懂是怎么确定信息都记录在上面的！这根本就是在耍我吧！此刻，我只想让他以后像那片毛竹林一样，一年四季无甚变化。</p>
+<p>　　“真的在上面，不管你信不信。”工却表现得十分真诚，一边拍着自己的白大褂。</p>
+<p>　　说到白大褂，工表示钟表们很脆弱，尽管我觉得这种随意摆放的态度不太像是很关心钟表的样子，我以前问起这件事的时候他就会解释说：钟表的摆放是有一个必须遵守的规则的，你不能随便去动它，不然发生什么样的错误都有可能，就像一些写得很臃肿的代码里的魔法数字一样。也就是因为这样的理由，工不仅自己穿白大褂，还强迫了我穿白大褂。</p>
+<p>　　那时，我就这样盯着这些积灰的钟表，对工的话丝毫不信，但是也不敢乱动这些钟表，钟表脆弱不脆弱我不知道，能够说出这些话的人一定不稳定而且危险。但是积灰这么严重的东西我还是第一次见，可能安排一拨去北京防霾会比较好吧。</p>
+<p>　　“一定不信那就算了，那张纸你就留着吧。哪天看懂了记得和我讲，看不出也算了，但是一定要妥善保管。”他一本正经。</p>
+<p>　　妥善保管倒是没有问题，但是原来放在那里和钟表一起积灰算是妥善保管吗？一边想着这些有的没的，我把这张纸放进了自己的长铝筒里，和其他看得懂的图纸在一起。把铝筒斜挎到背上，补充一下，这个铝筒背起来就像背长剑一样，这是我的自我感觉，工老是说像高尔夫球杆筒，大家别理会他。</p>
+<p>　　“你看到过那个问题吗？‘如何写出带有程序员风格的修真小说？’”</p>
+<p>　　我点了点头，想着那些积灰的钟表。</p>
+<p>　　这场对话就是这样结束的，工继续对着灰尘发呆，像盯着竹子。</p>
+<p><em>//格物致知？</em></p>
+<h2 id="养野猪传奇-3-2017-04-13"><a href="#养野猪传奇-3-2017-04-13" class="headerlink" title="养野猪传奇#3 2017-04-13"></a>养野猪传奇#3 2017-04-13</h2><p><em>//就一个标题，哼哒。</em></p>
+<h3 id="270°"><a href="#270°" class="headerlink" title="270°"></a>270°</h3><p>　　话说，某告示牌的月份似乎改回来了，考虑到时间，大约是为了来考试的外校学生不嘲笑吧？总之足见本校学生的地位低下。</p>
+<p>　　有一个比喻是这样的，人生是由一个接一个选择题组成的，每做一个选择你就登上一级台阶，一旦选择错误，你就跌下来，从头开始或者就这么结束了。但其实用楼梯做例子不是很贴切，倒是飞行棋更加合适，前进的过程有快有慢，时不时回到起点，一些棋子能够走到终点，之类。也许你选择不同，投掷出的点数不同，但是这都影响不了一件事，你前进的方向，并且它就是要绕那么一个270°的圈子，没有其他办法。也许你觉得自己做出了某个选择，它导致你前进得稍微快了些，或者你觉得做出另外的选择会让你前进得更快一些，但这都不影响你前进的方向，所以即使后悔，也没什么意义，况且你不能悔棋去重新投掷骰子。因此去想其余的选项毫无意义，至少对于改变现状毫无意义。</p>
+<p>　　钟楼从外面看不大，顶多就是一个二层建筑，在开始城市化的林桥一点儿都不显眼，甚至像是随时会被拆除，但是从里面看，却怎么都看不到边。我问过工这种效果是怎么做到的，他说足够暗就行，暗到感受不到边界，话是这么说，钟楼里倒是一点儿都不暗，顶端是发着蓝光的星空绘图，也像是感受不到边际。之所以说感受不到边际，就是通过移动，你感受不到图案相对你的的位移，如果不是远到足够远的地方，这几乎是实现不了的，尤其是在一个二层建筑里。通过某种特殊的折光涂层倒是似乎可以，但是以目前的技术水平应该没办法，即使能够做到，以工的经济状况也负担不起。我认为最可信的一个推测是屋顶是由一个弧面大屏幕构成，通过几个摄像头定位访客位置，显示相应的图案。这是因为只有我来工这里，而工也拒绝听我的吩咐，而一个人当然没有办法验证它是不是专门显示的，工也不允许带有摄像功能的工具入内，至少我想不到一个人的验证方法。至于尺子之类的也没办法带进去，工认为这种对环境的好奇心会影响到过来聊天的本质。但其实我偷偷用脚丈量过，至少我没走到边。</p>
+<p>　　与寻常的楼梯不同，工的钟楼里有这样一道楼梯。在钟楼里面，笔直地盘旋而上，也是望不到尽头，可能是通过安装两个镜面达成的，要令楼梯笔直，必须两个镜面和楼梯轴线完全垂直，也是及其困难的，因为钟楼里面的可见度出奇得好，所以肉眼可见范围的楼梯居然不歪斜是很困难的。除此之外，这楼梯的台阶是由一块块悬浮的发出蓝光的似乎是玻璃材质的板组成的，可能是通过涂黑连接的支撑柱制造的错觉。</p>
+<p>　　不管钟楼是多么诡异，工是这样告诫我的：“不要抱有过多的好奇心，那道楼梯你就不要上，很危险的。”</p>
+<p>　　补充一点，这楼梯的设计者似乎从来没想过让人登上去，所以并没有设计扶手，而我有点轻微的恐（怕）高（死），因此合理地听从了这个提议。</p>
+<p>　　“不是因为容易摔下来。”工这样补充道。</p>
+<p>　　我一呆，不觉得还有别的什么理由说明它危险。</p>
+<p>　　“上去就下不来了。”工说得很简洁。</p>
+<p>　　因为钟楼本身的建筑风格就很奇幻，工又神神叨叨的，真实与否并不是很重要了，这种环境就很吸引人了。</p>
+<p>　　诸位一定下过楼梯吧，如果在一个很高的楼梯中间，不扶扶手，就会有摇摇欲坠的感觉（至少我是这样的），摇摇欲坠像一支风中蟾蜍，唔，是风中残烛，忽明忽暗。</p>
+<p>　　与这种忽明忽暗类似的，其实是时而爆发的怀疑。</p>
+<p>　　按说，怀疑这种动作不应该存在爆发的状态，但一旦虚无的感受侵蚀了从不自省的真正的虚无的生活，对一切的怀疑就会一如很久以前的好奇，迸发出来，嘣，像遇到了滚烫的金属容器高温的玉米粒，像地精身上蹦出的零件。</p>
+<p>　　节日是给弱势群体准备的，不知是谁曾这样和我。但是“工程师节”是个什么东西呢？居然还是以农历为准的。意思是只有在中国，工程师才是弱势群体吗？</p>
+<p>　　注：工程师节是纪念大禹的，现在想来，如果这个工程师指的是水利工程师的话，大概确实需要这样一个节日来安慰一下他们受伤的心灵吧。</p>
+<p>　　“工程师根本就不是弱势群体。”工很认真地跟我讨论。但其实严格来讲，一个造钟表地年轻工匠以及一个从来没有造过什么实体的写代码的似乎没有什么资格讨论这个显然是狭义上的“工程师节”。</p>
+<p>　　注：很可惜的是，将来就是了。</p>
+<p>　　谈到职业，工造的钟表从不出售，制作的原材料也从来不购入，加上的确无老可啃，我是想不出来他是怎样维生的。</p>
+<p>　　工曾明确声明过，造钟表只是爱好，不是工作，他也不需要工作，过于拘束的生活不适合他。</p>
+<p>　　虽然我也这么觉得，但是整天待在钟楼里面和出门工作比究竟哪个更加拘束呢？</p>
+<p>　　以及，维生本就是一件需要处处考量的事，自由也不是那么容易失去的东西。</p>
+<p>　　可能工的家庭十分富有吧？我这样想，钟楼这种建筑，就像工艺品一样，其实说不上有什么价值，尤其是获取时间信息十分便利的今天。钟楼这种建筑也通常不是私有的，而是作为景观或者便民设施存在于屋舍之间。</p>
+<p>　　潜意识里觉得钟楼和灯塔很相似，但是灯塔现在还有没有用处，我也不甚了然。</p>
+<p>　　“我看你手上缺块表哦？”工盯着我的钱包。</p>
+<p>　　这样一说，倒是确实，虽然不是用手机代替手表的人（事实上，我甚至都不随身携带手机），但是整天对着显示器屏幕应该也用不着表吧？</p>
+<p>　　“这个怀表送你了，我之前连卖都不卖的。”</p>
+<p>　　赠送这个做法令我摸不着头脑，也许是有后续的骗钱套路，经常坏然后修理费比表本身还要多之类的。顺便工，在我之前，你有认识的人吗（除了爹娘）？不卖是什么说法？</p>
+<p>　　这只怀表的结构倒是蛮奇特的，完全没有指针，也看不出来从哪可以显示时间，只有一个闪着荧光的人影走在中心，不断重复着拾级而上的动作，楼梯台阶的影像则相对他反向移动，以确保他们的相对距离正确并保持人影在正中。确实不像那种量产用来骗钱的货色。</p>
+<p>　　“勉强收下了。”我强行用不屑的语气回应。</p>
+<p>　　“顺便，怎么读数啊？”我提出了这个疑问，不管面子的事情，不会用这个表是最大的浪费。</p>
+<p>　　“啊，你用不到这个功能，所以我删掉了。”</p>
+<p>　　这是哪门子的表啊！</p>
+<p>　　以及，反复强调的楼梯的印象，真的不是在告诉我去上那道楼梯吗？</p>
+<p>　　有个说法，认为小说中的主角如果一点儿都不作死，故事就难以顺利地进行下去。于是我就——似乎哪里不对，前面不是说工才是主角吗？管他呢——不管怎么样，我理所当然地上了楼梯。</p>
+<p>　　踩上去的时候台阶发出幽蓝的光，之后不再散去。</p>
+<p><em>//作死</em></p>
+
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/06/11/a-year-later/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/03/31/gauss/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="ZhhhPlus's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        252049155@qq.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/03/">三月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/02/">二月 2017<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/代码/">代码<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/文章/">文章<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/月历/">月历<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/gallery" title="图库">
+                
+                    <i class="material-icons sidebar-material-icons">dashboard</i>
+                
+                图库
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/tags" title="标签">
+                
+                    <i class="material-icons sidebar-material-icons">loyalty</i>
+                
+                标签
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">5</span>
+            </a>
+        </li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.svg);">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.svg);">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;Cat and Owl
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import File -->
+
+    <script src="/js/lazyload.min.js"></script>
+    <script src="/js/js.min.js"></script>
+
+
+
+    <script src="/js/nprogress.js"></script>
+
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+<script>
+    <!-- Offer LazyLoad -->
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    <!-- Start Queue -->
+    $(document).ready(function(){
+        setTimeout(function(){
+            setInterval(function(){
+                queue.execNext();
+            },200);
+        },3000);
+    });
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
