@@ -10,7 +10,7 @@
     
     <title>
         
-            标签: 瞎写 | 
+            Summer2017 | 
         
         Cat and Owl
     </title>
@@ -32,7 +32,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="ZhhhPlus">
     <meta name="description" content="Codes and Stories">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,生活">
 
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/cat.png">
@@ -58,9 +58,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://zhhhplus.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: 瞎写 | Cat and Owl">
+    <meta property="og:title" content="Summer2017 | Cat and Owl">
     <meta property="og:description" content="Codes and Stories">
-    
+    <meta property="og:article:tag" content="生活"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -216,95 +216,217 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2017"><span class="post-toc-number">1.</span> <span class="post-toc-text">2017</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#08-09"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">08.09</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#09-05"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">09.05</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#09-30"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">09.30</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#10-31"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">10.31</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#照例是待续，这个夏天有点漫长啊"><span class="post-toc-number">1.4.1.</span> <span class="post-toc-text">照例是待续，这个夏天有点漫长啊</span></a></li></ol></li></ol></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/thumbnail/dragon.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/thumbnail/summer.png)">
+    
+            <p class="article-headline-p">
+                Summer2017
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>ZhhhPlus</strong>
+        <span>8月 09, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/30/Lost-Fiction/">Lost Fiction</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/生活/">生活</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            养野猪传奇#0 2017-02-16前前言硬盘弄坏了，所以重新搭博客了，就把之前写的放到了一起，之后再说吧。
-前言说来也是奇怪的,这个写了那么久,居然连个标题都没有。所以就随性起了个这样的名字……诸位不要在意就是了。很接近《孤岛危机》的翻译方式嘛,照着第一部的内容起就好了,管它后来怎么样呢,谁知道它能不能出第二部。本着起不来名就胡乱起的原则,就有了现在这个标题了。顺便在这里,要感谢一下高三的时候陪我一起写小说(摸鱼)的白告和黄尼玛以及提供了作文本载体的沁姨和……(啊咧,还有谁嘛?算了,并想不起来)。
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/30/Lost-Fiction/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="ZhhhPlus's avatar">
-            </div>
-            <div>
-                <strong>ZhhhPlus</strong>
-                <span>5月 30, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/文章/">文章</a>
-            </span>
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
 
-            
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Summer2017&url=http://zhhhplus.github.io//2017/08/09/Summer2017/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Cat and Owl&title=Summer2017&summary=Codes and Stories&pics=http://zhhhplus.github.io/img/cat.png&url=http://zhhhplus.github.io/2017/08/09/Summer2017/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
 </div>
 
-            
-            
-        
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-
+        <h2 id="2017"><a href="#2017" class="headerlink" title="2017"></a>2017</h2><h3 id="08-09"><a href="#08-09" class="headerlink" title="08.09"></a>08.09</h3><p>按理说这是讲关于2017年暑假的事情的一篇，但是问题是这样的，2017年的暑假消失不见了。<br><a id="more"></a><br>原来是打算把训练的题目题解和代码放到这儿的，但是集训资料并不能外泄，所以这个博客也就非常久没有更新了。</p>
+<h3 id="09-05"><a href="#09-05" class="headerlink" title="09.05"></a>09.05</h3><p>不久之后又要开学了，整个暑假的假期确实也就只有一个星期。从八月份初回家之后，因为队伍集训的事情又回到学校，将要一直练习到开学，至今不知道能不能争取到一次参加区域赛的名额。两名队友都是代码实现能力不错的选手，我大概可以安心地当一个嘴巴选手了。</p>
+<p>不知道这个学期开学之后是怎样的光景，是不是会整天忙于作业，还是会花很多时间来训练，还剩下多少的精力和时间来交往，大三开始之后就要面对玉泉和紫金港之间的距离了，大概在一起的机会会很快变少吧，希望能够尽量充分地挖掘剩下的一起在紫金港的一年。</p>
+<h3 id="09-30"><a href="#09-30" class="headerlink" title="09.30"></a>09.30</h3><p>原来不知道十一集训的日期，决定按兵不动，然而集训队安排时间的效率有点低下了，直到十一直接没票回家了才公布了通知：5号到8号训练，于是盘算了一下，发现要买票也就只能买2号的票（中间有考虑过十一之前回家，但是似乎30号（也就是今天）似乎要集训，于是就否决了），可是这样待在家里的时间甚至不到3天，完全不值，就打算国庆不回家了，到了昨天集训结束。训练甫一结束，就听说30号不用训练，瞬间燃起了回家的希望，看了一波票，发现5点有票，觉得很稳，而且还有30号上午9点开始发票的车票，觉得非常稳。然后找了两个12:30拼车的同学，非常稳地坐上了车。于是上出租车是1点，到车站是2点，多亏了熟练的司机师傅，真是太潇洒了（关于为什么会被司机师傅当作大一萌新啊）。然后非常平稳地极限操作上了火车，表示非常刺激，非常血脉喷张。另外，队伍去哪个赛区也已经决定了，将会在10月末和11月末分别参加西安赛区和南宁赛区呢。南宁赛区看得我有点慌，他们的网络赛实在太……令人发指得简单和恶心了，希望到时候场上的题目不要那么恶心吧。</p>
+<h3 id="10-31"><a href="#10-31" class="headerlink" title="10.31"></a>10.31</h3><p>突然之间连西安的区域赛也已经比过了，是一名ACM银奖选手了呢，没有什么波动的感觉，不仅仅人生，连ACM的经历也还有很长一段路要走，今天才刚刚学了线性筛，觉得要好好补一下各种乱七八糟的算法和论文了，嘴巴选手就要有嘴巴选手应有的见识嘛。这样一说，七月集训之后基本上都是从公开的资源取得的比赛，所以题解其实是可以放在博客上的，所以大概会在有空的时间里好好地补充一下这个博客技术方面的内容吧，而不是单纯的记录生活的博客（怎么样这个博客也是搭在Github这个代码仓库上的吧）。顺便一个队友好像和某个著名的ACM亚洲第一委员会主任很熟？听说南宁赛区会照顾新参加的西南地区学校之类的所以会出得比较简单？感觉越来越担心了呢……总觉得会是和南宁网络赛一样的坑人题目集合啊？或许还是一套令人无语的难以读懂而没有任何算法的垃圾题？</p>
+<p>今天是万圣节前夜，今年steam的万圣节特惠感觉不怎么吸引人啊，但是PSN上的血源诅咒打了四折，果然还是想剁手呢。可是想不出什么理由奖励自己啊？感觉什么都不会啊？</p>
+<h4 id="照例是待续，这个夏天有点漫长啊"><a href="#照例是待续，这个夏天有点漫长啊" class="headerlink" title="照例是待续，这个夏天有点漫长啊"></a>照例是待续，这个夏天有点漫长啊</h4>
     
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
-</script>
 
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/10/31/Xi-an2017/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/05/30/Lost-Fiction/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -493,6 +615,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
